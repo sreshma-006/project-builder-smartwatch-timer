@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  #parent-div {
+    margin-top: 10%;
+    margin-left: 40%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #3b3b3b;
+    border-radius: 2.5em;
+    width: 18vw;
+    height: 40vh;
+  }
+  
+  #inner-div {
+    background-color: black;
+    color: white;
+    height: 100%;
+    border-radius: 2.5em;
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+    justify-content: stretch;
+    align-items: center;
+  }
+  
+  #main,
+  #headTime {
+    text-align: center;
+  }
+  
+  #icons {
+    display: flex;
+    justify-content: space-around !important;
+    align-self: stretch !important;
+    font-size: 1.1em;
+    cursor: pointer;
+  }
+  
+  a {
+    color: gray;
+  }
+  
+  a:hover {
+    color: white;
+  }
+  #msg-cont {
+      width: 150px;
+      text-align: start;
+      margin-left: 45px;
+      overflow: auto;
+      border-radius: 15px;
+      margin-bottom: 5px;
+     
+    }
+  
+    #msg-cont div {
+      background-color: white;
+      color: black;
+      font-size: 15px;
+      cursor: pointer;
+      padding: 10px;
+      
+    }
+    
+    #text {
+      font-size: 12px;
+      padding: 10px;
+      background-color: white;
+      color: black;
+    }
+    
+    
+    .t2{
+      font-weight: bold;
+      font-size: 35px;
+    }
+    
+    .day{
+      font-family: monospace;
+      font-size: 18px;
+      font-family: sans-serif;
+    } 
+    .date{
+    font-family: monospace;
+    font-size:15px; 
+    }   
+  
+  
+  /* for stopwatch */
+  
+  .timer {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+    padding-bottom: 10px;
+  }
+  
+  #clock-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  
+  #clock-icons:hover {
+    color: aliceblue;
+  }
+  #start {
+    font-size: 13px;
+    transform: scale(1.1);
+  }
+  
+  #reset {
+    transform: scale(1.1);
+  }
+  
+  #stop {
+    transform: scale(1.1);
+  }
